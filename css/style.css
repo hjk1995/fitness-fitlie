@@ -118,6 +118,12 @@ body {
     position: relative;
 }
 
+.treadmill-header {
+    background-image: url('../images/treadmill.jpg');
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
 
 .overlay {
     position: absolute;
