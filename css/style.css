@@ -111,6 +111,14 @@ body {
     position: relative;
 }
 
+.cardio-header {
+    background-image: url('../images/cardio.jpg');
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+
 .overlay {
     position: absolute;
     min-height: 100%;
@@ -323,6 +331,7 @@ body {
 .product-image figure img {
     width: 100px;
     height: 120px;
+    float: right;
     object-fit: cover;
     vertical-align: top;
 }
