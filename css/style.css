@@ -125,6 +125,20 @@ body {
     position: relative;
 }
 
+.elliptical-header {
+    background-image: url('../images/elliptical_machines.png');
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.exercisebike-header {
+    background-image: url('../images/exercise_bikes.jpg');
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
 .overlay {
     position: absolute;
     min-height: 100%;
