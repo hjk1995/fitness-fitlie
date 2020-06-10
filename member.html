@@ -52,26 +52,66 @@
         </div>
     </header>
     <div class="container features">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">Cardio</h3>
-                <img src="images/cardio.jpg" class="img-fluid same-size">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
-                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        <form onsubmit="validateForm()">
+            <div class="row">
+                <div class="form-group col">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter Email" required>
+                </div>
+                <div class="form-group col">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                        required>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">Strength</h3>
-                <img src="images/strength.jpg" class="img-fluid same-size">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
-                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+            <div class="row">
+                <label>Select Membership</label>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <label>
+                        <input type="radio" name="product" class="card-input-element" required />
+
+                        <div class="panel panel-default card-input backwhite">
+                            <div class="panel-heading">VIP Membership</div>
+                            <div class="panel-body">
+                                $99
+                            </div>
+                        </div>
+
+                    </label>
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <label>
+                        <input type="radio" name="product" class="card-input-element" required />
+
+                        <div class="panel panel-default card-input backwhite">
+                            <div class="panel-heading">VVIP Membership</div>
+                            <div class="panel-body">
+                                $199
+                            </div>
+                        </div>
+                    </label>
+
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">Others</h3>
-                <img src="images/others.jpg" class="img-fluid same-size">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
-                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+            <div class="row form-check">
+                <select id="inputState" class="form-control" required>
+                    <option selected>Choose Card Option</option>
+                    <option>Credit Card</option>
+                    <option>Debit Card</option>
+                </select>
             </div>
-        </div>
+            <br>
+            <div class="row form-check">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Recieve Email updates</label>
+            </div>
+            <br>
+            <div class="row form-check">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </div>
     <footer class="page-footer">
         <div class="container">
@@ -82,7 +122,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <p>1640 Devonshire Mall, Tecumseh Road, 
+                    <p>1640 Devonshire Mall, Tecumseh Road,
                         <br />info@fitlife.com
                         <br />+1 4379874353
                 </div>
