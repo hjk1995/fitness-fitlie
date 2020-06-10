@@ -13,3 +13,6 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.exercisebike-header').height($(window).height());
 })
+function validateForm() {
+  alert("Your Order is submitted Successfully!")
+}
