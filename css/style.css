@@ -104,6 +104,14 @@ body {
     justify-content: flex-end;
 }
 
+#about-header {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
 .header {
     background-image: url('../images/background.jpg');
     background-size: cover;
